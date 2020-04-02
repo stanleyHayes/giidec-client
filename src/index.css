@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Light-Background{
+  background-color: #f6f6f8;
+}
+
+.Dark-Background{
+  background-color: #f9f9f9;
+}
+
+.Section{
+  min-height: 70vh;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+/* Centered text */
+.Centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Container {
+  position: relative;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.71);
+}

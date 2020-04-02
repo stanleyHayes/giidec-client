@@ -1,0 +1,13 @@
+.Light-Background{
+    background-color: #e4e4e6;
+}
+
+.Dark-Background{
+    background-color: #e0e9fb;
+}
+
+.Section{
+    min-height: 70vh;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
