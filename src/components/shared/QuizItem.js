@@ -41,7 +41,6 @@ function QuizItem(props) {
     };
     return (
         <Card link={true} raised={true} fluid={true} color="green">
-            <Image style={styles.image} src={props.quiz.image} alt={props.quiz.week} fluid={true}/>
             <Label as="a" color="green" ribbon={true} size="big">Quiz of the Week</Label>
             <Card.Content>
                 <Card.Meta>

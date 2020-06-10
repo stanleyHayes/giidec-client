@@ -23,15 +23,6 @@ function FactItem(props) {
     };
     return (
         <Card raised={true} link={true} fluid={true} color="orange">
-            <Image
-                dimmer={true}
-                ui={true}
-                wrapped={true}
-                bordered={true}
-                size="massive"
-                src={props.fact.image}
-                alt={props.fact.fact}
-                fluid={true}/>
             <Label as="a" ribbon={true} color="violet" size="big">Fact of {new Date(props.fact.date).toDateString()}</Label>
             <Card.Content>
                 <Card.Header>{props.fact.fact}</Card.Header>

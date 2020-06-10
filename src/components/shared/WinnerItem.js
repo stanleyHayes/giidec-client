@@ -38,8 +38,6 @@ function WinnerItem(props) {
     };
     return (
         <Card fluid={true} link={true} raised={true} color="violet">
-            <Image wrapped={true} ui={true} dimmer={true} src={props.winner.image} alt={props.winner.name}
-                   fluid={true}/>
             <Label as="a" ribbon={true} color="violet" size="big">Winner of Week {props.winner.quiz.week}</Label>
             <Card.Content>
                 <Card.Header>{props.winner.name}</Card.Header>

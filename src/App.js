@@ -11,8 +11,6 @@ import QuizzesPage from "./pages/fun/QuizzesPage";
 import FactsPage from "./pages/fun/FactsPage";
 import WinnersPage from "./pages/fun/WinnersPage";
 import AboutOrganisationPage from "./pages/about/AboutOrganisationPage";
-import OrganisationStoryPage from "./pages/about/OrganisationStoryPage";
-import OrganisationLeadersPage from "./pages/about/OrganisationLeadersPage";
 import ReviewsPage from "./pages/contact/ReviewsPage";
 import FindUsPage from "./pages/contact/FindUsPage";
 

@@ -11,6 +11,7 @@ function LeaderItem(props) {
                 bordered={true}
                 rounded={true}
                 wrapped={true}
+                size={"large"}
                 ui={true}
                 dimmer={true}
                 src={props.leader.image}

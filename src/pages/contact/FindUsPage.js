@@ -4,8 +4,7 @@ import {Container, Image} from "react-bootstrap";
 
 import "../../index.css";
 import {Col, Grid, Row} from "rsuite";
-import {Button, Card, Form, Icon, List} from "semantic-ui-react";
-import {off} from "uikit/src/js/util";
+import {Button, Card, Form, Icon} from "semantic-ui-react";
 import OfficeItem from "../../components/shared/OfficeItem";
 
 function FindUsPage(props) {
@@ -175,10 +174,6 @@ function FindUsPage(props) {
                         </Row>
                     </Grid>
                 </div>
-
-                {/*<div className="Light-Background py-5 Section">*/}
-                {/*    <h2 className="text-center">Map View</h2>*/}
-                {/*</div>*/}
             </div>
         </Layout>
     )

@@ -9,13 +9,11 @@ function GHeader(props) {
             <Navbar.Toggle/>
             <Navbar.Brand>
                 <img
-                    src={process.env.PUBLIC_URL + '/logo192.png'}
-                    width={50}
-                    height={50}
+                    src={process.env.PUBLIC_URL + '/images/GIISDEC_LOGO_FINAL.svg'}
+                    width={150}
+                    height={80}
                     className="d-inline-block align-top"
                     alt="GIISDEC Logo"/>
-
-                <span className="Brand-Logo">GIISDEC</span>
             </Navbar.Brand>
             <Navbar.Collapse>
                 <Nav className="justify-content-center flex-grow-1 ml-auto">

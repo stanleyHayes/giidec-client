@@ -65,19 +65,43 @@ function AboutOrganisationPage(props) {
         description: "GIISDEC is people centered. We foster teamwork, nurture talent and enhance leadership capabilities."
     };
 
-    const leader = {
-        image: `${process.env.PUBLIC_URL}/images/winner.jpg`,
-        name: "Mr. Haruna Andani",
+
+    const kwaminaArcherFrimpong = {
+        image: `${process.env.PUBLIC_URL}/images/kwamina-archer-frimpong.jpeg`,
+        name: "Kwabena Bonsu Fordwor",
         position: "Chairman",
-        profile: "This dark and mysterious color scheme with a vibrant blue accent follows a prevailing Web design trend"
+        profile: "Highly proficient and competent mechanical engineer with 10 years working experience. A very talented professional with a genuine concern for sustainable, safety and environmentally friendly policies. A dedicated, team player, self-motivated, good interpersonal and communication skills and hardworking with in-depth mechanical knowledge and experience."
     };
 
-    const [leaders, setLeaders] = useState([leader, leader, leader, leader, leader, leader, leader, leader]);
+    const kwabenaBonsuFodwor  = {
+        image: `${process.env.PUBLIC_URL}/images/kwamena-bonsu.jpeg`,
+        name: "Kwamina Archer Frimpong",
+        position: "Chairman",
+        profile: "Kwabena Bonsu Fordwor is a lawyer and a business executive and currently the Chief Executive Officer of Ghana Integrated Iron and Steel Development Corporation (GIISDEC), a flagship project of the Presidency which was formed by Act 988 and assented to by His Excellency the President Nana Addo Dankwa Akufo Addo on 13th May 2019. "
+    };
+
+    const hanifatuYahaya = {
+        image: `${process.env.PUBLIC_URL}/images/hanifatu-yahaya.jpeg`,
+        name: "Ms. Hanifatu Yahaya Esq",
+        position: "Chairman",
+        profile: "Ms. Hanifatu Yahaya Esq is a lawyer by profession who was called to the Ghana Bar in October, 2010.  Prior to that she obtained a Bachelors Degree in Social Work and Sociology at the University of Ghana Legon between 2000 and 2003 with First Class Honours."
+    };
+
+    const johnNtim = {
+        image: `${process.env.PUBLIC_URL}/images/john-ntim.jpeg`,
+        name: "JOHN NTIM FORDJOUR, MP",
+        position: "Chairman",
+        profile: "John Ntim Fordjour is an astute and visionary entrepreneur, affable and selfless politician, and an ordained reverend minister. Ntim Fordjour is a regular TEDx Speaker, social commentator and bold advocate of anti-corruption and conservative social values in the Parliament of Ghana."
+    };
 
 
-    const [values, setValues] = useState([value1, value2, value3, value4, value5]);
 
-    const [visionStrategies, setVisionStrategy] = useState([strategy1, strategy2, strategy3, strategy4]);
+    const [leaders] = useState([kwaminaArcherFrimpong, hanifatuYahaya, johnNtim, kwabenaBonsuFodwor]);
+
+
+    const [values] = useState([value1, value2, value3, value4, value5]);
+
+    const [visionStrategies] = useState([strategy1, strategy2, strategy3, strategy4]);
 
     const styles = {
         displayText: {
